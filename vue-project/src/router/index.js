@@ -1,6 +1,8 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import DataBinding from "../views/DataBinding.vue";
+// import DataBinding from "../views/DataBindingAttr.vue";
+// import DataBinding from "../views/EventClick.vue";
+import DataBinding from "../views/ShowVue.vue";
 const routes = [
   {
     // 고객이 요청하는 것이 많은 페이지면 이곳에 정의

@@ -5,6 +5,7 @@
     <router-link to="/data">Data link</router-link>
   </nav>
   <router-view />
+  <!-- 실제 페이지 들이 그려져 나타나는 태그-->
 </template>
 
 <style>
