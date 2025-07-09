@@ -4,10 +4,19 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/data">Data link</router-link>
   </nav>
+  <p>App.js{{ msg }}</p>
   <router-view />
   <!-- 실제 페이지 들이 그려져 나타나는 태그-->
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      msg: "",
+    };
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
