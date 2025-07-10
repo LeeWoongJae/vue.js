@@ -8,7 +8,9 @@ import HomeView from "../views/HomeView.vue";
 // import DataBinding from "../views/TodoView.vue";
 // import DataBinding from "../views/IndexJsView.vue";
 // import DataBinding from "../views/ParentComponentView.vue";
-import DataBinding from "../views/ParentComponentView2.vue";
+// import DataBinding from "../views/ParentComponentView2.vue";
+// import DataBinding from "../views/ParentButton.vue";
+import DataBinding from "../views/todoListVuex.vue";
 const routes = [
   {
     // 고객이 요청하는 것이 많은 페이지면 이곳에 정의
